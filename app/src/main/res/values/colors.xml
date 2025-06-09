@@ -1,5 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <!--Light Theme Colors -->
+    <color name="colorPrimary">#D32F2F</color>
+    <color name="colorPrimaryVariant">#B71C1C</color>
+    <color name="colorSecondary">#FF5722</color>
+    <color name="colorSecondaryVariant">#E64A19</color>
+    <color name="colorBackground">#FFFFFF</color>
+    <color name="colorSurface">#FFFFFF</color>
+    <color name="colorError">#B00020</color>
+    <color name="colorOnPrimary">#FFFFFF</color>
+    <color name="colorOnSecondary">#FFFFFF</color>
+    <color name="colorOnBackground">#000000</color>
+    <color name="colorOnSurface">#000000</color>
+    <color name="colorOnError">#FFFFFF</color>
+
+    <!-- Dark Theme Colors -->
+    <color name="colorPrimaryDark">#F44336</color>
+    <color name="colorPrimaryVariantDark">#D32F2F</color>
+    <color name="colorSecondaryDark">#FF7043</color>
+    <color name="colorSecondaryVariantDark">#FF5722</color>
+    <color name="colorBackgroundDark">#121212</color>
+    <color name="colorSurfaceDark">#1E1E1E</color>
+    <color name="colorErrorDark">#CF6679</color>
+    <color name="colorOnPrimaryDark">#FFFFFF</color>
+    <color name="colorOnSecondaryDark">#000000</color>
+    <color name="colorOnBackgroundDark">#FFFFFF</color>
+    <color name="colorOnSurfaceDark">#FFFFFF</color>
+    <color name="colorOnErrorDark">#000000</color>
+
+    <!-- Additional Colors -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="gray">#757575</color>
+    <color name="light_gray">#EEEEEE</color>
+    <color name="dark_gray">#424242</color>
+    <color name="transparent">#00000000</color>
+    <color name="red_500">#F44336</color>
+    <color name="red_700">#D32F2F</color>
+    <color name="red_900">#B71C1C</color>
+
 </resources>
