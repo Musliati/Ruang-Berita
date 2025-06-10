@@ -21,9 +21,6 @@ public class NewsImage {
         return small;
     }
 
-    public void setSmall(String small) {
-        this.small = small;
-    }
 
     public String getLarge() {
         return large;

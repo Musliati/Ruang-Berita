@@ -172,21 +172,6 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         }
     }
 
-    public int getSavedNewsCount() {
-        try {
-            String countQuery = "SELECT * FROM " + TABLE_SAVED_NEWS;
-            SQLiteDatabase db = this.getReadableDatabase();
-            Cursor cursor = db.rawQuery(countQuery, null);
-            int count = cursor.getCount();
-            cursor.close();
-            db.close();
-            return count;
-        } catch (Exception e) {
-            e.printStackTrace();
-            return 0;
-        }
-    }
-
     // Settings operations
     public void saveSetting(String key, String value) {
         try {

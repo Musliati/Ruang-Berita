@@ -71,13 +71,6 @@ public class CategoryAdapter extends RecyclerView.Adapter<CategoryAdapter.Catego
         return categoryNames.size();
     }
 
-    public void setSelectedPosition(int position) {
-        int oldPosition = selectedPosition;
-        selectedPosition = position;
-        notifyItemChanged(oldPosition);
-        notifyItemChanged(selectedPosition);
-    }
-
     public static class CategoryViewHolder extends RecyclerView.ViewHolder {
         TextView textCategory;
 

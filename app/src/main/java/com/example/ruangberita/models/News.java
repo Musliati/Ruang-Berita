@@ -26,13 +26,6 @@ public class News {
     // Constructors
     public News() {}
 
-    public News(String title, String link, String contentSnippet, String isoDate, NewsImage image){
-        this.title = title;
-        this.link = link;
-        this.contentSnippet = contentSnippet;
-        this.isoDate = isoDate;
-        this.image = image;
-    }
 
     // Getters and Setters
     public int getId() {
@@ -108,16 +101,6 @@ public class News {
     }
 
     // Utility methods
-    public String getFormattedDate() {
-        if (isoDate != null && !isoDate.isEmpty()) {
-            try {
-                return isoDate.substring(0, 10);
-            }catch (Exception e) {
-                return "Tidak diketahui";
-            }
-        }
-        return "Tidak diketahui";
-    }
 
     public String getImageUrl() {
         if (image != null && image.getLarge() != null) {
